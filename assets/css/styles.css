@@ -655,8 +655,10 @@ body.light-theme {
 }
 
 .work__img {
-  border-radius: 1rem;
-  margin-bottom: 0.75rem;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: auto;
 }
 
 .work__title {
