@@ -648,10 +648,18 @@ body.light-theme {
   border-radius: 0.5rem;
 }
 
-.work__card {
+ .work__card {
   background-color: var(--container-color);
-  padding: 1rem;
-  border-radius: 1rem;
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.work__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 .work__img {
@@ -659,6 +667,7 @@ body.light-theme {
   height: 70px;
   object-fit: contain;
   margin-bottom: auto;
+ dispaly: block;
 }
 
 .work__title {
